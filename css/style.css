@@ -1,0 +1,30 @@
+.circulo{
+    height: 150px;
+    width: 158px;
+    background-color:rgb(204, 185, 185);;
+    border-radius: 58%;
+    animation-name: Pacman;
+    animation-duration: 10s;
+    position: relative;
+    }
+    @keyframes Pacman{
+    0% {background-color: rgb(204, 185, 185); left: 0px; top: 0px;}
+    10%{background-color: rgb(204, 185, 185); left: 2400px; top: 0px;}
+    20%{background-color: rgb(204, 185, 185);left: 2400px;top: 300px;}
+    30%{background-color: rgb(204, 185, 185); left: 2400px; top: 300px;}
+    40%{background-color: rgb(204, 185, 185);left: 0px; top: 300px;}
+    50%{background-color: rgb(204, 185, 185); left: 0px; top: 600px;}
+    60%{background-color: rgb(204, 185, 185); left: 2400px; top: 600px;}
+    70%{background-color: rgb(204, 185, 185); left: 2400px; top: 800px;}
+    80%{background-color: rgb(204, 185, 185); left: 0px; top: 800px;}
+    90%{background-color: rgb(204, 185, 185); left: 0px; top: 1200px;}
+    100%{background-color: rgb(204, 185, 185); left: 2400px; top: 1200px;}   
+    }           
+
+    body {
+        background: linear-gradient(
+        100deg,
+        rgb(10, 10, 155) 0%,
+        rgb(204, 142, 17) 100%
+    );
+    }
